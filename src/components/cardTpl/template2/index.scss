@@ -1,0 +1,150 @@
+.cardLayout {
+  height: 100%;
+  background: #FAFAFA;
+  border-radius: 4px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cardCover {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cardBody {
+  padding: 5px 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+   /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+}
+
+.ell-1 {
+  -webkit-line-clamp: 1;
+}
+
+.ell-2 {
+  -webkit-line-clamp: 2;
+}
+
+.ell-3 {
+  -webkit-line-clamp: 3;
+}
+
+.ell-4 {
+  -webkit-line-clamp: 4;
+}
+
+.cardStat {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.cardIcon {
+  width: 16px;
+  margin-right: 4px;
+}
+
+.cardPrice {
+  margin-top: 8px;
+}
+
+.cardOriginalPrice {
+  font-size: 20px;
+  line-height: 16x;
+  zoom: 0.5;
+  text-decoration: line-through;
+  margin-right: 8px;
+  color: #BFBFBF;
+}
+
+.cardPriceValue {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #F4222D;
+}
+
+.cardPriceUnit {
+  zoom: 0.625;
+}
+
+.cardPeriod {
+  color: #909399;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.cardLayout-5 {
+  background: #FFF;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+
+  .cardTypeIcon {
+    background: #FFF1F0;
+    border-radius: 10px;
+    padding: 0 8px;
+    color: #FF4D4F;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+  }
+}
+
+.cardStatus {
+  padding: 0 4px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+}
+
+.cardLayout-9 {
+  background: #323038;
+
+  .cardCover {
+    border-radius: 4px;
+  }
+
+  .cardTitle, .cardStat {
+    color: #FFF;
+  }
+}
+
+.memberPrice {
+  font-size: 12px;
+  color: #FF4D4F;
+  margin-bottom: 4px;
+}
+
+.originPrice {
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: line-through;
+}

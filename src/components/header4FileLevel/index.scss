@@ -1,0 +1,71 @@
+.headerLayout {
+  padding: 15px;
+  background: #FFF;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.headerCover {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 16px;
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.headerContent {
+  flex: 1;
+}
+
+.headerTitle {
+  font-size: 17px;
+  line-height: 27px;
+  color: #1F1F21;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.headerDesc {
+  font-size: 14px;
+  line-height: 22px;
+  color: #909399;
+
+  &Icon {
+    width: 16px;
+    margin-right: 4px;
+  }
+
+  &.author {
+    margin-bottom: 8px;
+  }
+
+  &.desc {
+    margin-bottom: 14px;
+  }
+
+  &.viewCount {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.headerBottom {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delPrice {
+  font-size: 12px;
+  color: #BFBFBF;
+  line-height: 16px;
+  text-decoration: line-through;
+  margin-right: 4px;
+}
+
+.innerPrice {
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4222D;
+  font-weight: 500;
+}

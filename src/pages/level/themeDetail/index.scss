@@ -1,0 +1,21 @@
+.moduleHeader {
+  height: 44px;
+  box-shadow: 0px 1px 0px 0px #E4E7ED, 0px -1px 0px 0px #E4E7ED;
+  color: #1F1F21;
+  font-size: 14px;
+  padding-right: 10px;
+
+  &Title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .infoIcon {
+    width: 16px;
+    margin-right: 4px;
+  }
+}
+
+:global .am-tabs {
+  height: auto;
+}

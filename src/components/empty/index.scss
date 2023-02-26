@@ -1,0 +1,25 @@
+.layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  user-select: none;
+  background-color: white;
+  &__icon {
+    width: 186px;
+    height: 100px;
+    background-image: url(./image/icon-tip@2x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__message {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cccccc;
+    line-height: 20px;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.countdownLayout {
+  height: 25px;
+  line-height: 25px;
+  background: #F7F8FC;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+
+  &Value {
+    color: #0F8FFF;
+  }
+}

@@ -1,0 +1,17 @@
+.line {
+  flex: 1;
+  height: 1px;
+  background: #909399;
+}
+
+.flexCourse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+
+  .flexCourseItem {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}

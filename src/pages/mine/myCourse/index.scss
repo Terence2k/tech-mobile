@@ -1,0 +1,19 @@
+.fixedTab {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+
+.flexCourse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+
+  .flexCourseItem {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}

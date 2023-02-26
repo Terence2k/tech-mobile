@@ -1,0 +1,15 @@
+@import '~themes/style.scss';
+@import '~themes/colors.scss';
+
+.minePage {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  background-color: #fafafa;
+  
+  .minePageHeader {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #fff;
+  }
+}

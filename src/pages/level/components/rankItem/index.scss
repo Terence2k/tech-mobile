@@ -1,0 +1,47 @@
+.rankItem {
+  background: #FFF;
+}
+
+.rankLabel {
+  width: 24px;
+  font-size: 12px;
+}
+
+.rankLabel-2 {
+  width: 30px;
+  margin-right: 12px;
+  text-align: center;
+}
+
+.rankLabelMine {
+  width: 48px;
+  color: #FAAD14;
+  font-size: 20px;
+  zoom: 0.5;
+}
+
+.rankUser {
+  flex: 1;
+  overflow: hidden;
+}
+
+.rankIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-left: 4px;
+}
+
+.rankItem-1 {
+  padding: 8px 0;
+}
+
+.rankItem-2 {
+  height: 70px;
+  padding: 0 15px;
+  box-shadow: 0px 1px 0px 0px #E4E7ED, 0px -1px 0px 0px #E4E7ED;
+}
+
+.mine2 {
+  background: #EFF3FB;
+}

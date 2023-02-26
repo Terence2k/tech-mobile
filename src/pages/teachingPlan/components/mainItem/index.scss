@@ -1,0 +1,103 @@
+.mainItem {
+  display: flex;
+  align-content: stretch;
+}
+
+.mainItemStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 4px;
+
+  &Icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  &Line {
+    width: 1px;
+    flex: 1;
+  }
+}
+
+.mainItemContent {
+  border: 1px solid #F2F2F2;
+  padding: 12px 8px;
+  flex: 1;
+}
+
+.mainItemTitle {
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.mainItemType {
+  padding: 0 8px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.mainItemTeacher {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 3px;
+
+  &Icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+}
+
+.mainItemDuration {
+  font-size: 20px;
+  zoom: 0.5;
+}
+
+.mainItemBtn {
+  display: inline-block;
+  padding: 0 12px;
+  color: #FFF;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.diplomaItem {
+  width: 350px;
+  height: 98px;
+  background-image: url(./images/certificate-bg.png);
+  background-size: cover;
+  padding: 36px 24px 0;
+
+  &Title {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  &Tag {
+    width: 48px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #F6A248;
+    border: 1px solid #F6A248;
+    background: #FFF7E6;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+}

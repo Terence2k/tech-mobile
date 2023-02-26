@@ -1,0 +1,53 @@
+.basicLayout {
+  padding: 12px 15px 60px;
+  background: #fff;
+}
+
+.cardLayout {
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 12px 0;
+}
+
+.cardItem {
+  width: 168px;
+  min-width: 168px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.homeworkBtn {
+  width: 144px;
+  text-align: center;
+  border: 1px solid #909399;
+  border-radius: 20px;
+  margin: 20px auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f1f21;
+}
+
+.emptyLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 30px;
+  .icon {
+    width: 160px;
+    height: 70px;
+    background-image: url(./image/icon-empty.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .tip {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 12px;
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,173 @@
+:global(.text-align-right .am-input-control input) {
+  text-align: right;
+
+  font-size: 14px !important;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #909399;
+}
+
+.layout {
+  overflow: hidden;
+  //
+  .mobileLayout {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #1f1f21;
+    line-height: 50px;
+    background-color: white;
+  }
+  //
+  .infoLyout {
+    margin-top: 15px;
+    border-top: 1px solid #e4e7ed;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: white;
+    .product {
+      display: flex;
+      align-items: stretch;
+      padding: 15px 15px 15px 0;
+      margin-left: 15px;
+      border-bottom: 1px solid #e4e7ed;
+      &__hd {
+        .icon {
+          width: 70px;
+          height: 70px;
+          border-radius: 4px;
+          object-fit: cover;
+        }
+      }
+      &__bd {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title {
+          font-size: 14px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #909399;
+          line-height: 21px;
+        }
+        .desc {
+          margin-top: 5px;
+          font-size: 14px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #909399;
+          line-height: 21px;
+        }
+        .num {
+          margin-top: 12px;
+          font-size: 14px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #1f1f21;
+        }
+      }
+    }
+    .ticket {
+      padding: 8px 15px 8px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #909399;
+      line-height: 20px;
+      margin-left: 15px;
+      border-bottom: 1px solid #e4e7ed;
+      &__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        &__text {
+          color: #1f1f21; 
+        }
+      }
+    }
+    .membercard {
+      padding: 8px 15px 8px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #909399;
+      line-height: 20px;
+      margin-left: 15px;
+      border-bottom: 1px solid #e4e7ed;
+      &__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        &__text {
+          color: #1f1f21; 
+        }
+      }
+    }
+    .jiantou {
+      width: 16px;
+      height: 16px;
+      background-image: url(./images/icon-jiantou@2x.png);
+      background-position: center;
+      background-size: contain;
+    }
+    .cells {
+      padding: 16px 15px;
+      .cell {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #909399;
+        line-height: 20px;
+        margin-top: 8px;
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  //
+  .remarkLayout {
+    margin-top: 15px;
+    width: 100%;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 15px;
+    background-color: white;
+    .title {
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #909399;
+      line-height: 40px;
+    }
+  }
+  //
+  .submitBarLayout {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 49px;
+    text-align: center;
+    background-color: #d02224;
+    cursor: pointer;
+    &:active {
+      opacity: 0.8;
+    }
+  }
+}

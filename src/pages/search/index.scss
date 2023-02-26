@@ -1,0 +1,69 @@
+:global(.searchbar-layout) {
+  height: inherit;
+  padding: 0;
+  background-color: transparent;
+}
+:global(.searchbar-layout .am-search-cancel) {
+  height: inherit;
+  line-height: inherit;
+}
+:global(.searchbar-layout .am-search-value) {
+  cursor: pointer;
+}
+:global(.searchbar-layout .am-search-input) {
+  background-color: #efeff4;
+}
+
+.searchLayout {
+  // height: 100vh;
+  overflow: auto;
+}
+
+.historyTitle {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.deleteIcon {
+  width: 16px;
+}
+
+.deleteItem {
+  padding: 0 12px;
+  height: 32px;
+  line-height: 32px;
+  background: #F5F5F5;
+  margin: 0 12px 12px 0;
+  border-radius: 18px;
+  position: relative;
+
+  &Inner {
+    max-width: 120px;
+    font-size: 12px;
+    color: #333;
+  }
+}
+
+.noData {
+  width: 100%;
+  padding-top: 40px;
+  color: #CCC;
+  font-size: 14px;
+  line-height: 20px;
+  background: #FFF;
+
+  &Icon {
+    width: 186px;
+    margin-bottom: 24px;
+  }
+}
+
+.listItem {
+  font-size: 16px;
+  color: #333;
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #EEE;
+  background: #FFF;
+}

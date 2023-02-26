@@ -1,0 +1,24 @@
+.userIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  object-fit: cover;
+  margin-right: 4px;
+}
+
+.userName {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.userCount {
+  font-size: 20px;
+  zoom: 0.5;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.levelItem {
+  color: #FAAD14;
+}

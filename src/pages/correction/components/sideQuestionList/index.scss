@@ -1,0 +1,41 @@
+@import '~themes/style.scss';
+@import '~themes/colors.scss';
+.layout{
+  // background-color: red;
+  width: 100%;
+  overflow: hidden;
+  .closeArea{
+    background-color: red;
+    height: 100vh;
+    // height: 30px;
+    width: 30px;
+    float: left;
+  }
+  .contentWrapper{
+    float: right;
+    height: 100vh;
+    background-color: #fff;
+    padding:0 35px 0 20px ;
+    margin-right: -20px;
+    overflow-y:scroll;
+    .contentItem{
+      display: flex;
+      width: 250px;
+      text-align: 2em;
+      line-height: 48px;
+      height: 48px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      font-size: 16px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      position: relative;
+    
+    }
+    .text{
+      border: 1px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+  }
+}

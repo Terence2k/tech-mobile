@@ -1,0 +1,103 @@
+.header {
+  min-height: 210px;
+  background: linear-gradient(90deg, #65646A 0%, #2D2D30 100%);
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 8px 10px 10px 0;
+}
+
+.headerTag {
+  padding: 0 8px;
+  height: 20px;
+  line-height: 20px;
+  background: linear-gradient(86deg, #DDA872 0%, #ECD6BE 100%);
+  border-radius: 0 10px 10px 0;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.headerShare {
+  font-size: 13px;
+  color: #FFF;
+  cursor: pointer;
+
+  &Icon {
+    width: 13px;
+    margin-right: 3px;
+  }
+}
+
+.userIcon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 6px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.userName {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #FFF;
+  margin-bottom: 4px;
+}
+
+.userCount {
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFF;
+  font-weight: 300;
+}
+
+
+.level {
+  flex: 1;
+  max-width: 340px;
+
+  &Data {
+
+    &Label {
+      font-size: 12px;
+      line-height: 17px;
+      font-weight: 500;
+      color: #FFF;
+      margin-bottom: 4px;
+    }
+
+    &Value {
+      font-size: 12px;
+      line-height: 45px;
+      color: rgba(255, 255, 255, .65);
+      white-space: nowrap;
+
+      &Inner {
+        font-size: 32px;
+        color: #49C687;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.levelIcon {
+  margin-top: 15px;
+  justify-content: space-evenly;
+
+  &Inner {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    object-fit: cover;
+  }
+
+  &Text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFF;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+}

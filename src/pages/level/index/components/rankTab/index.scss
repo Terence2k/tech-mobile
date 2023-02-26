@@ -1,0 +1,27 @@
+.tabs {
+  display: inline-flex;
+  align-items: center;
+  max-width: 300px;
+  border: 1px solid #fce811;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 19px;
+
+  &Item {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 19px;
+    cursor: pointer;
+
+    &Active {
+      background: #fce811;
+      color: rgba(0, 0, 0, 0.85);
+      font-weight: 600;
+    }
+  }
+}

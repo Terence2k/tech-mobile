@@ -1,0 +1,140 @@
+.cardLayout {
+  background: #fafafa;
+  border-radius: 4px;
+  position: relative;
+  // 文章
+  &-3 {
+    border-radius: 4px;
+    background-color: white;
+    .cardTitle {
+      font-size: 16px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 22px;
+    }
+    .cardStat {
+      display: flex;
+      align-items: center;
+      .cardIcon {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+.cardCover {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 12px 8px;
+}
+
+.cardTitle {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+}
+
+.ell-1 {
+  -webkit-line-clamp: 1;
+}
+
+.ell-2 {
+  -webkit-line-clamp: 2;
+}
+
+.ell-3 {
+  -webkit-line-clamp: 3;
+}
+
+.ell-4 {
+  -webkit-line-clamp: 4;
+}
+
+.cardTag {
+  display: inline-flex;
+  margin-right: 12px;
+  margin-bottom: 4px;
+  padding: 0 8px;
+  border: 1px solid #f4222d;
+  color: #f4222d;
+  height: 16px;
+  font-size: 12px;
+  border-radius: 8px;
+  font-weight: 300;
+  white-space: nowrap;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.cardPeriod {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cardStat {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.cardPrice {
+  margin-top: 8px;
+}
+
+.cardOriginalPrice {
+  font-size: 20px;
+  line-height: 16x;
+  zoom: 0.5;
+  text-decoration: line-through;
+  margin-right: 8px;
+  color: #bfbfbf;
+}
+
+.cardPriceValue {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #f4222d;
+}
+
+.cardPriceUnit {
+  zoom: 0.625;
+}
+
+.cardTeacher {
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.cardTeacherIcon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

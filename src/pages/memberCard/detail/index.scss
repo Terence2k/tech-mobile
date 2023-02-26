@@ -1,0 +1,83 @@
+.detailLayout {
+  padding: 15px 15px 60px;
+  background: #26252A;
+}
+
+.qualityItem {
+  width: 49%;
+  background: linear-gradient(134deg, #F6E6CA 0%, #EFD09C 100%);
+  color: #5E4A4B;
+  padding: 11px 15px;
+  border-radius: 4px;
+}
+
+.notQualityItem {
+  background: #524F58;
+  color: #FFF;
+}
+
+.qualityTitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.qualityDesc {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.vsIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: #FFF;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  color: #5E4A4B;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+
+.moreBtn {
+  padding: 0 8px;
+  font-size: 12px;
+  border-radius: 2px;
+  height: 24px;
+  line-height: 24px;
+  color: #FFF;
+  background: #403E46;
+  margin-bottom: 24px;
+  align-self: flex-end;
+}
+
+.fixedBottom {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #403E46;
+  padding: 5px 10px;
+  bottom: 0;
+  left: 0;
+
+  &Btn {
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    background: linear-gradient(134deg, #F6E6CA 0%, #EFD09C 100%);
+    color: #5E4A4B;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  background: rgba(0, 0, 0, .8);
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,106 @@
+.layout {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px -1px 0px 0px #e4e7ed;
+  user-select: none;
+  &.disabled {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #cccccc;
+    div {
+      margin: auto;
+    }
+  }
+  &__menus {
+    flex: 1;
+    text-align: center;
+    & > div {
+      display: inline-flex;
+      align-items: center;
+      line-height: 49px;
+      cursor: pointer;
+      .icon {
+        width: 20px;
+        height: 20px;
+      }
+      .label {
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+    .share {
+      .icon {
+        background-image: url(./image/icon-share@2x.png);
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    .collect {
+      .icon {
+        background-image: url(./image/iconCollect.png);
+        background-position: center;
+        background-size: contain;
+      }
+
+      .collected {
+        background-image: url(./image/iconCollected.png);
+      }
+    }
+
+    .edit {
+      .icon {
+        background-image: url(./image/iconEdit.png);
+        background-position: center;
+        background-size: contain;
+      }
+    }
+  }
+  &__submit {
+    flex: 2;
+    padding: 0 15px;
+    .submit {
+      display: flex;
+      align-items: center;
+      height: 36px;
+      line-height: 36px;
+      border-radius: 36px;
+      font-size: 16px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+      & > div {
+        flex: 1;
+        height: 100%;
+        font-size: 14px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        text-align: center;
+        padding: 0 10px;
+        white-space: nowrap;
+        cursor: pointer;
+        &:active {
+          opacity: 0.8;
+        }
+      }
+      .black {
+        font-size: 12px;
+        color: #f9d99f;
+        background-color: #000000;
+      }
+      .blue {
+        font-size: 12px;
+        color: white;
+        background-color: #0f8fff;
+      }
+    }
+  }
+}

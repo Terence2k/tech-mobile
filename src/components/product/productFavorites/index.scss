@@ -1,0 +1,30 @@
+.layout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 10;
+  &.pc {
+    right: calc((100vw - 375px) / 2);
+  }
+  .panelLayout {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    .icon {
+      margin: auto;
+      width: 16px;
+      height: 16px;
+      background-image: url(./image/icon-unfavorites@2x.png);
+      background-position: center;
+      background-size: contain;
+      &.favorites {
+        background-image: url(./image/icon-favorites@2x.png);
+      }
+    }
+  }
+}

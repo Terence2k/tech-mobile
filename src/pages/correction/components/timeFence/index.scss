@@ -1,0 +1,111 @@
+@import "~themes/style.scss";
+.timeWrapper{
+  display: flex;
+  
+  width: 100%;
+  height: 55px;
+  padding: 0 15px;
+  background-color: #fff;
+  position: relative;
+  border-bottom: 11px solid #f1eff2;
+  // box-sizing: content-box;
+  align-items: center;
+
+  .dateWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+  }
+  
+.rolesWrapper{
+  display: flex;
+  align-items: center;
+   height: 44px;
+   width: 265px;
+   overflow: hidden;
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  .rolesItem{
+    width:32px;
+    height: 32px;
+    position: relative;
+    // border: 1px solid red;
+    margin-right: 10px;
+    img{
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+    .numWrapper{
+      right:-10px;
+      top: -5px;
+    }
+  }
+}
+  .timeItem{
+    padding-top:3px;
+    margin-top: 7px;
+    margin-right: 8px;
+    width: 44px;
+    height: 31px;
+    background: #F5F5F5;
+    border-radius: 15px 0px 8px 8px;
+    text-align: center;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #BFBFBF;
+    line-height: 14px;
+   
+  }
+  .current{
+    background-color:#E6F7FF;
+    color: #40A9FF;
+  }
+  .arrowDown{
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    right: 63px;
+    top: 0px;
+    text-align: center;
+    line-height: 44px;
+  
+background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+// background-color: skyblue;
+    
+  
+  }
+  .switch{
+    padding: 0 2px;
+    position: absolute;
+    right: 15px;
+    width: 59px;
+    height: 24px;
+    background: linear-gradient(302deg, #91D5FF 0%, #3490FF 100%);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 24px;
+  }
+  .switch_item{
+    // float: right;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    display: block;
+    font-size: 12px;
+    transform: scale(0.7);
+    z-index: 9;
+  }
+}
+
+
+.dateItem{
+  position: relative;
+}
+.numWrapper{
+  right:-10px;
+  top: -8px;
+}

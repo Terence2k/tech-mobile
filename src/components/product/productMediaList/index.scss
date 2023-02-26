@@ -1,0 +1,40 @@
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+}
+.text {
+  font-size: 16px;
+  min-height: 27px;
+  line-height: 27px;
+  color: #1f1f21;
+  word-wrap: break-word; // 针对纯数字强制换行
+  text-align: justify;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  &.selectable {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+  }
+
+  &.h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.caption {
+  font-size: 14px;
+  line-height: 18px;
+  color: #909399;
+  text-align: center;
+  margin: 15px 0 25px;
+}

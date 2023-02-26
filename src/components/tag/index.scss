@@ -1,0 +1,21 @@
+.layout {
+  display: inline-block;
+  padding: 0 6px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(65, 93, 150);
+  white-space: nowrap;
+  &.wait {
+    background-color: rgb(132, 157, 191);
+  }
+  &.valid {
+    background-color: rgb(65, 93, 150);
+  }
+  &.expired {
+    background-color: rgb(204, 204, 204);
+  }
+}

@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 44px;
+  border-top: 1px solid #e4e7ed;
+  border-bottom: 1px solid #e4e7ed;
+  background-color: white;
+  & > div {
+    flex: 1;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #909399;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    &.active {
+      font-weight: 600;
+      color: #1f1f21;
+    }
+  }
+}

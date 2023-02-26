@@ -1,0 +1,59 @@
+.layout {
+  // height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #e4e7ed;
+  border-bottom: 1px solid #e4e7ed;
+  user-select: none;
+  cursor: pointer;
+  &__hd {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #909399;
+    white-space: nowrap;
+  }
+  &__bd {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    & > div {
+      position: relative;
+      display: inline-flex;
+      align-items: stretch;
+      flex-wrap: wrap;
+      height: 18px;
+      font-size: 10px;
+      color: white;
+      line-height: 18px;
+      margin-right: 10px;
+      white-space: nowrap;
+      // margin-bottom: 8px;
+      &:last-child {
+        margin-right: 0;
+      }
+      .left {
+        width: 10px;
+        height: 100%;
+        background: radial-gradient(circle at 0px 9px, transparent 3px, #d02224 0) left;
+      }
+      .center {
+        background-color: #d02224;
+      }
+      .right {
+        width: 10px;
+        background: radial-gradient(circle at 10px 9px, transparent 3px, #d02224 0) right;
+      }
+    }
+  }
+  &__ft {
+    width: 16px;
+    height: 16px;
+    background-image: url(./image/icon-jiantou@2x.png);
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+  }
+}

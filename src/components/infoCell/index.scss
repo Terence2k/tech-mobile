@@ -1,0 +1,30 @@
+
+.cell {
+  width: 100%;
+  height: 48px;
+  padding: 0 25px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+
+  .cellKey {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .cellText {
+    color: rgba(0,0,0,.65);
+    font-size: 16px;
+  }
+
+  .cellImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+  }
+
+  .cellRight {
+    width: 8px;
+    height: 14px;
+    margin-left: 12px;
+  }
+}

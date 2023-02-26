@@ -1,0 +1,87 @@
+
+.studentsCard{
+  margin-top: 10px;
+  overflow: hidden;
+  padding:0 15px;
+  // background-color: tan;
+  // box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+}
+.card{
+  margin: 2px auto; 
+  width: 100%;
+  min-height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+
+  border-radius: 5px;
+  z-index: 9;
+  
+}
+.answer{
+  padding: 8px;
+ 
+  .paper{
+    width: 329px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 20px;
+  }
+  .wallPic{
+    display: flex;
+    flex-wrap: wrap;
+    .wallPic_wrapper{
+        width: 64px;
+         height: 64px;
+         object-fit: cover;
+         margin-right: 18px;
+         border-radius: 3px;
+         margin-bottom: 19px;
+         overflow: hidden;
+         margin-top: 10px;
+      .wallPic_item{
+        width: 64px;
+         height: 64px;
+         object-fit: cover;
+         margin-right: 18px;
+         border-radius: 3px;
+         margin-bottom: 19px;
+      }
+    }
+   }
+}
+
+.correction{
+  overflow: hidden;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 92px;
+  height: 32px;
+  background: #0F8FFF;
+  border-radius: 16px;
+    font-size: 14px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 32px;
+    text-align: center;
+
+
+}
+.noAnswer{
+  color: #ccc;
+  line-height: 12px;
+  margin-bottom: 2px;
+}
+.textContent{
+  width: 100%;
+}
+.underlint{
+  // padding-bottom: 5px;
+  float: right;
+  width: 100%;
+  margin-top: 5px;
+  border-bottom: 1px dashed #E5E5E5;
+}

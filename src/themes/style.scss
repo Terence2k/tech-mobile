@@ -1,0 +1,97 @@
+.br-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.br-multi-ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+
+  &--l2 {
+    -webkit-line-clamp: 2;
+  }
+
+  &--l3 {
+    -webkit-line-clamp: 3;
+  }
+}
+
+.br-hairline {
+  border: 0 solid #ebedf0;
+
+  &--top {
+    border-top-width: 1px;
+  }
+  &--bottom {
+    border-bottom-width: 1px;
+  }
+  &--left {
+    border-left-width: 1px;
+  }
+  &--right {
+    border-right-width: 1px;
+  }
+  &--top-bottom {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
+  &--surround {
+    border-width: 1px;
+  }
+}
+
+.br-fade {
+  visibility: visible;
+  transition: all 0.3s ease-out;
+}
+
+.br-slide {
+  visibility: visible;
+  transition: all 0.3s ease-out;
+
+  &-up {
+    transform: translateY(-100%);
+  }
+
+  &-down {
+    transform: translateY(100%);
+  }
+
+  &-left {
+    transform: translateX(100%);
+  }
+
+  &-right {
+    transform: translateX(-100%);
+  }
+}
+
+.numWrapper{
+  position: absolute;
+  min-width: 12px;
+  max-width: 16px;
+  height: 12px;
+  line-height: 12px;
+  right: -7px;
+  top: -5px;
+  background-color: #F5222D;
+  border-radius: 6px;
+  text-align: center;
+  .num{
+    text-align: center;
+      display: block;
+      height: 12px;
+      font-size: 12px;
+      text-align: center;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.85);
+      line-height: 12px;
+      transform: scale(0.7);
+  }
+}

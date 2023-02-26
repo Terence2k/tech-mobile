@@ -1,0 +1,49 @@
+.layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  video {
+    width: 100%;
+    height: 100%;
+  }
+  .buttonPlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/icon-play@2x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
+
+:global .video-js .vjs-big-play-button {
+  display: none;
+}
+// :global .vjs-paused .vjs-control-bar {
+//   display: none;
+// }
+:global .video-js .vjs-progress-holder {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  height: 2px;
+  width: 100%;
+}
+:global .video-js .vjs-play-progress {
+  height: 2px;
+}
+:global .video-js .vjs-load-progress {
+  height: 2px;
+}
+:global .video-js .vjs-play-progress:before {
+  font-size: 12px;
+  top: -5px;
+  text-shadow: 0 0 2px black;
+}

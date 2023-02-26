@@ -1,0 +1,86 @@
+.levelItem {
+  display: flex;
+  align-items: center;
+  background: #FFF;
+}
+
+.levelIcon {
+  width: 75px;
+  height: 70px;
+  padding: 10px 16px 10px 10px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.levelContent {
+  height: 70px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  box-shadow: 0px 1px 0px 0px #E4E7ED;
+}
+
+.levelTitle {
+  color: #1F1F21;
+  font-size: 15px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.passIcon {
+  width: 56px;
+}
+
+.lockIcon {
+  width: 16px;
+  margin-right: 4px;
+}
+
+.lockText {
+  font-size: 14px;
+  color: #666;
+}
+
+.levelBtn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  background: #409EFF;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cardPrice {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.cardOriginalPrice {
+  font-size: 20px;
+  line-height: 16x;
+  zoom: 0.5;
+  text-decoration: line-through;
+  margin-right: 8px;
+  color: #BFBFBF;
+}
+
+.cardPriceValue {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #F4222D;
+}
+
+.cardPriceUnit {
+  zoom: 0.625;
+}

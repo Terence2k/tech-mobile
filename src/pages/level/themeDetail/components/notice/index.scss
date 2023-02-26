@@ -1,0 +1,39 @@
+.layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  background-color: white;
+
+  .noticePopup {
+    width: 100%;
+    padding: 24px 20px 24px 30px;
+    font-size: 16px;
+    color: rgb(31, 31, 33);
+    line-height: 24px;
+    .title {
+      margin-bottom: 16px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .item {
+      position: relative;
+      text-align: justify;
+      &::before {
+        $size: 6px;
+        position: absolute;
+        content: "";
+        top: 10px;
+        left: -14px;
+        width: $size;
+        height: $size;
+        background-size: $size;
+        border-radius: 50%;
+        background-color: #606265;
+      }
+    }
+    .item + .item {
+      margin-top: 12px;
+    }
+  }
+}

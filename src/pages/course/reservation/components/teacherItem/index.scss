@@ -1,0 +1,41 @@
+.teacherItem {
+  padding: 8px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  &Icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  &Btn {
+    padding: 0 18px;
+    background: #409EFF;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 4px;
+    margin-left: 8px;
+    color: #FFF;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+.teacherContent {
+  flex: 1;
+  overflow: hidden;
+}
+
+.teacherTitle {
+  font-size: 16px;
+  line-height: 23px;
+  color: #1F1F21;
+  font-weight: 500;
+  margin-bottom: 12px;
+}

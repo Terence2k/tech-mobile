@@ -1,0 +1,17 @@
+.sellPoint {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+
+  &Icon {
+    width: 10px;
+    margin-right: 8px;
+  }
+}

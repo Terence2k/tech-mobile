@@ -1,0 +1,76 @@
+@import "~themes/vars.scss";
+
+.successHeader {
+  width: 100vw;
+  padding: 0 15px;
+  height: 64px;
+  background-color: #409EFF;
+  color: #fff;
+  &.pc {
+    min-width: $clientWidth;
+    max-width: $clientWidth;
+  }
+
+  .successTitle {
+    font-size: 14px;
+  }
+
+  .successTips {
+    font-size: 12px;
+  }
+
+  .successBtn {
+    width: 88px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #409EFF;
+    font-size: 16px;
+  }
+}
+
+.productInfo, .orderInfo {
+  box-shadow: 0px 1px 0px 0px #E4E7ED, 0px -1px 0px 0px #E4E7ED;
+  padding-left: 15px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15px;
+
+  .productInfoItem {
+    color: #909399;
+    font-size: 14px;
+    padding-right: 15px;
+    height: 28px;
+  }
+
+  .productPay {
+    padding-right: 15px;
+    height: 28px;
+  }
+}
+
+.orderInfo {
+  padding-right: 15px;
+  padding-top: 15px;
+
+  .orderInfoItem {
+    font-size: 14px;
+    color: #909399;
+    padding-bottom: 15px;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #E4E7ED;
+}
+
+.telBlock {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  color: #1F1F21;
+  font-size: 16px;
+  box-shadow: 0px 1px 0px 0px #E1E1E1, 0px -1px 0px 0px #E1E1E1;
+}

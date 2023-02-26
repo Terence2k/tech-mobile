@@ -1,0 +1,27 @@
+.fixedTab {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+
+.getBtn {
+  height: 46px;
+  line-height: 46px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #FFF;
+  text-align: center;
+  color: #D02224;
+  font-size: 16px;
+}
+
+.noData {
+  line-height: 120px;
+  font-size: 16px;
+  text-align: center;
+  height: calc(100vh - 110px);
+}

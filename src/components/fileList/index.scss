@@ -1,0 +1,36 @@
+.fileList {
+  background: #FFF;
+  padding: 15px 15px 0;
+}
+
+.fileItem {
+  background: #F5F6F7;
+  padding: 0 10px 0 8px;
+  border-radius: 10px;
+  height: 64px;
+  margin-bottom: 10px;
+
+  &Icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  &Title {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  &Btn {
+    background: #409EFF;
+    color: #FFF;
+    padding: 0 24px;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+  }
+}

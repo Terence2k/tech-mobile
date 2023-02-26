@@ -1,0 +1,143 @@
+
+.studentsCard{
+  margin-top: 10px;
+  overflow: hidden;
+  padding:0 15px;
+  // box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  // border: 1px solid red;
+}
+.card{
+  margin: 2px auto; 
+  width: 100%;
+  min-height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+
+  
+  .studentInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D9D9D9;
+    border-radius:5px  5px 0 0;
+    .student{
+      width: 110px;
+      // display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .studentPic{
+        // float: left;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: fill;
+       
+        // border: 1px solid #ccc;
+      }
+      .name{
+        float: right;
+        width: 70px;
+        height: 32px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #333333;
+        line-height: 32px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      
+    }
+    .handupTime{
+      margin-left: -20px;
+      width: 185px;
+      height: 17px;
+      font-size: 12px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #999999;
+      line-height: 17px;
+    }
+  }
+}
+.answer{
+  padding: 8px;
+  .paper{
+    width: 329px;
+    min-height: 10px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 20px;
+  }
+  .wallPic{
+    display: flex;
+    flex-wrap: wrap;
+    .wallPic_wrapper{
+        width: 64px;
+         height: 64px;
+         object-fit: cover;
+         margin-right: 18px;
+         border-radius: 3px;
+         margin-bottom: 19px;
+         overflow: hidden;
+         margin-top: 10px;
+      .wallPic_item{
+        width: 64px;
+         height: 64px;
+         object-fit: cover;
+         margin-right: 18px;
+         border-radius: 3px;
+         margin-bottom: 19px;
+      }
+    }
+   
+     
+   }
+}
+
+.correction{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 92px;
+  height: 32px;
+  background: #0F8FFF;
+  border-radius: 16px;
+    font-size: 14px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 32px;
+    text-align: center;
+}
+.corrections{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 92px;
+  height: 32px;
+  background: #E8E8E8;
+  border-radius: 16px;
+    font-size: 14px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 32px;
+    text-align: center;
+    
+}
+.noAnswer{
+  color: #ccc;
+  line-height: 12px;
+  margin-bottom: 2px;
+}
+.textContent{
+  width: 100%;
+  padding:0 10px 0 0;
+}

@@ -1,0 +1,91 @@
+.memberCard {
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px rgba(179, 179, 179, 0.4);
+  margin-bottom: 15px;
+  padding: 30px 0 30px 24px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  padding-right: 16px;
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  padding-right: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.originalPrice {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.45);
+  text-decoration: line-through;
+  margin-left: 4px;
+}
+
+.period {
+  font-size: 16px;
+  padding-right: 16px;
+}
+
+.tag {
+  padding: 0 10px;
+  background: #FFF;
+  color: #5E4A4B;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.userLayout, .userContent {
+  flex: 1;
+  overflow: hidden;
+}
+
+.userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #FFF;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.userTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.userClient {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.userCardTitle {
+  font-size: 20px;
+}
+
+.userCardBtn {
+  font-size: 14px;
+  padding-right: 16px;
+  white-space: nowrap;
+}

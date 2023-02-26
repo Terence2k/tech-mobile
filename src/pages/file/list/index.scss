@@ -1,0 +1,21 @@
+.fileListLayout {
+  position: relative;
+  background: #FFF;
+  padding: 20px 10px;
+}
+
+.flexCourse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+
+  .flexCourseItem {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+.blockCourseItem {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+@import '~themes/colors.scss';
+@import "~themes/style.scss";
+.calendarWrapper{
+// background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 100vh;
+  z-index: 10;
+  overflow: hidden;
+  &.pc {
+    // min-width: 375px;
+    // max-width: 375px;
+    width: 375px;
+  }
+  .shelter{
+    height: 85px;
+    width: 100%;
+    // background-color: skyblue;
+  }
+  
+  .rolesWrapper{
+    
+    background-color: #fff;
+    width: 100%;
+    // height: 420px;
+    border-radius: 0px 0px 16px 16px;
+// box-shadow: 0px -1px 0px 0px #DDDDDD;
+
+.wrapperHideScroll{
+  display: flex;
+    flex-wrap: wrap;
+  width: 120%;
+  overflow-Y: scroll;
+  padding: 0 30px 0 16px;
+max-height: 380px;
+}
+    .rolesItem{
+      width:48px;
+      height: 48px;
+      position: relative;
+      // border: 1px solid red;
+      margin:10px 5px;
+      // border: 1px solid red;
+
+    .name{
+      position: relative;
+      z-index: 9;
+      margin-top: -8px;
+      width: 48px;
+      height: 16px;
+      background: #E6F7FF;
+      border-radius: 8px;
+      border: 1px solid #0F8FFF;
+
+      font-size: 12px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 16px;
+      text-align: center;
+          
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+      
+      .numWrapper{
+        right:0px;
+        top: 0px;
+      }
+      .rPic{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+      }
+      
+    }
+  }
+  
+  
+  .outside{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+  }
+
+}
+

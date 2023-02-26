@@ -1,0 +1,54 @@
+.homeworkItem {
+  background: #F5F6F7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.topLayout {
+  display: flex;
+  margin-bottom: 10px;
+
+  &Icon {
+    margin-right: 10px;
+  }
+
+  &Title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    flex: 1;
+  }
+}
+
+.bottomLayout {
+  justify-content: space-between;
+
+  &Tag {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 8px;
+    background: rgba(64, 158, 255, 0.1);
+    border: 1px solid rgba(64, 158, 255, 0.3);
+    color: #409EFF;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+
+  &Stat {
+    font-size: 12px;
+    line-height: 8px;
+    color: #999;
+  }
+
+  &Btn {
+    padding: 0 16px;
+    white-space: nowrap;
+    color: #FFF;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #409EFF;
+  }
+}

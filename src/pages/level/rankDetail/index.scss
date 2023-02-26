@@ -1,0 +1,18 @@
+@import "~themes/vars.scss";
+
+.layout {
+  &__theme {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    &.pc {
+      min-width: $clientWidth;
+      max-width: $clientWidth;
+    }
+  }
+  &__myrank {
+    margin-top: 50px;
+  }
+}

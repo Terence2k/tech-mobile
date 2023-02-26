@@ -1,0 +1,12 @@
+@import "~/themes/colors.scss";
+
+.minePanel {
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 24px 16px 24px;
+
+  .panelTitle {
+    font-size: 20px;
+    color: $mainText;
+  }
+}

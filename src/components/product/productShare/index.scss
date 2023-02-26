@@ -1,0 +1,37 @@
+.layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  background-color: white;
+  &__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    .icon {
+      width: 23px;
+      height: 23px;
+      margin-bottom: 10px;
+      &.card {
+        background-image: url(./image/shareWechat@2x.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      &.link {
+        background-image: url(./image/shareAlbum@2x.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    .label {
+      font-size: 16px;
+      line-height: 16px;
+      color: rgb(31, 31, 33);
+    }
+  }
+}

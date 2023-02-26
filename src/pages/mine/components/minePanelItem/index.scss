@@ -1,0 +1,42 @@
+
+.item {
+  width: 25%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 4px;
+  background-size: 100% 100%;
+}
+
+.picWrapper{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  .numWrapper{
+    position: absolute;
+    padding: 0 1px ;
+    min-width: 12px;
+    height: 12px;
+    line-height: 12px;
+    right: -7px;
+    top: -5px;
+    background-color: #F5222D;
+    border-radius: 6px;
+    .num{
+        display: block;
+        height: 12px;
+        font-size: 12px;
+        text-align: center;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 12px;
+        transform: scale(0.7);
+       
+    }
+  }
+}

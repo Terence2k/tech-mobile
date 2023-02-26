@@ -1,0 +1,29 @@
+.featureList {
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.featureItem {
+  padding: 0 6px;
+  background: #F5F5F5;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 300;
+  margin-right: 6px;
+
+  &Inner {
+    font-size: 20px;
+    zoom: .5;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}

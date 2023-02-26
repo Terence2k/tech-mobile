@@ -1,0 +1,145 @@
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.showBtn {
+  font-size: 14px;
+  line-height: 34px;
+  color: #333;
+
+  &_icon {
+    margin-left: 5px;
+  }
+}
+
+.courseCell {
+  margin: 0 10px 10px 10px;
+  padding: 8px 15px;
+  border: 1px solid #f4f4f4;
+  border-radius: 4px;
+  cursor: pointer;
+  &:first-child {
+    margin-top: 10px;
+  }
+  &.unjoin {
+    opacity: 0.6;
+
+    .courseCell_tag {
+      background: #fafafa;
+      border-color: #e8e8e8;
+      color: #999;
+    }
+  }
+
+  &_index {
+    color: #ffaa42;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  &_title {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  &_bottom {
+    display: flex;
+    justify-content: space-between;
+
+    .score {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.65);
+      margin-left: 10px;
+
+      &_inner {
+        color: #ff4e4e;
+      }
+    }
+  }
+
+  &_tag {
+    white-space: nowrap;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 12px;
+    background: rgba(64, 158, 255, 0.1);
+    border: 1px solid rgba(64, 158, 255, 0.3);
+    color: #409eff;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+
+    .duration {
+      margin-left: 4px;
+    }
+  }
+
+  &_btn {
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 0 8px;
+    height: 20px;
+    line-height: 20px;
+    background: #409eff;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+
+    text {
+      line-height: 20px;
+    }
+
+    &_done {
+      background: rgba(64, 158, 255, 0.6);
+    }
+
+    &_icon {
+      margin-left: 4px;
+    }
+
+    &.disabled {
+      color: rgba(0, 0, 0, 0.65);
+      background: transparent;
+    }
+  }
+
+  &.diploma {
+    border: none;
+    padding: 40px 24px 0;
+    height: 98px;
+    background-image: url(./image/certificate-bg.png);
+    background-size: cover;
+
+    .courseCell_title {
+      margin-bottom: 7px;
+    }
+
+    .courseCell_tag {
+      border-color: #f6a248;
+      background: #fff7e6;
+      color: #f6a248;
+    }
+
+    .courseCell_btn:not(.disabled) {
+      background: #f6a248;
+      color: #fff;
+    }
+
+    // .course-cell-btn-done:not(.disabled) {
+    //   background: rgba(64, 158, 255, 0.6);
+    //   color: #fff;
+    //   border: none;
+    // }
+  }
+}

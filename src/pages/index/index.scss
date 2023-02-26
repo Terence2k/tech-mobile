@@ -1,0 +1,35 @@
+:global(.search-bar-layout) {
+  height: inherit;
+  padding: 0;
+  background-color: transparent;
+}
+:global(.search-bar-layout .am-search-cancel) {
+  height: inherit;
+  line-height: inherit;
+}
+:global(.search-bar-layout .am-search-value) {
+  cursor: pointer;
+}
+:global(.search-bar-layout .am-search-input) {
+  background-color: #efeff4;
+}
+
+.layout {
+  padding: 11px 15px 100px;
+  background-color: white;
+}
+
+.flexCourse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .flexCourseItem {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+.blockCourseItem {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,63 @@
+.priceLayout {
+  display: flex;
+  align-items: baseline;
+  line-height: 25px;
+  & > div {
+    display: flex;
+    align-items: baseline;
+    font-family: PingFangSC-Semibold, PingFang SC;
+  }
+  .price {
+    font-weight: 600;
+    .tag {
+      font-size: 12px;
+      color: #ff4e4e;
+    }
+    .value {
+      font-size: 18px;
+      color: #ff4e4e;
+    }
+  }
+  .originalPrice {
+    font-weight: 400;
+    font-size: 12px;
+    color: #909399;
+    text-decoration: line-through;
+  }
+  .free {
+    font-size: 18px;
+    color: #ff4e4e;
+  }
+}
+//
+.propertyLayout {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 20px;
+  .spacer {
+    padding: 0 5px;
+  }
+
+  .timeLayout {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 12px;
+
+    &Inner {
+      color: #666;
+    }
+  }
+}
+//
+.descLayout {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #999999;
+  line-height: 22px;
+}

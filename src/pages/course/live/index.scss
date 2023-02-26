@@ -1,0 +1,21 @@
+.infoLayout {
+  padding: 15px 15px 0 15px;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px 0px #e4e7ed;
+}
+
+.tabsLayout {
+  background: #FFF;
+  margin-top: 10px;
+
+  &Content {
+    padding: 10px;
+  }
+}
+
+.fixedTime {
+  position: fixed;
+  width: 100%;
+  bottom: 49px;
+  left: 0;
+}

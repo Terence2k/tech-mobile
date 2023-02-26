@@ -1,0 +1,16 @@
+.propertyLayout {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 20px;
+  & > div {
+    white-space: nowrap;
+  }
+  .spacer {
+    padding: 0 5px;
+  }
+}
